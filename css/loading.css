@@ -24,6 +24,6 @@ body {
     background-image: url(images/catglasses.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no repeat;
-    filter: blur(0px);
+    background-repeat: no-repeat;
+    filter: blur(30px);
 }

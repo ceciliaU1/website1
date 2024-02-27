@@ -21,7 +21,7 @@ body {
     width: 100vw;
     position: absolute;
     z-index: -1;
-    background-image: url()
+    background-image: url(images/catglasses.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no repeat;

@@ -21,3 +21,7 @@ body {
     cursor: pointer;
     font-family: "Share Tech Mono", monospace;
 }
+
+.btn:hover {
+    opacity: 0.9;
+}

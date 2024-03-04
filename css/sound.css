@@ -13,10 +13,11 @@ body {
 .btn {
     background-color: rgb(250,196,102);
     font-size: 2rem;
-    font-family: "Share Tech Mono", monospace;
     padding: 1.5rem 3rem;
     margin: 1rem;
     border-radius: 10px;
     border: none;
-    color: rgb()
+    color: rgb(224,143,2);
+    cursor: pointer;
+    font-family: "Share Tech Mono", monospace;
 }

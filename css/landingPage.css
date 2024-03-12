@@ -27,3 +27,9 @@ nav {
     color: white;
     /* transform: translateX(-100%); */
 }
+
+
+nav .logo {
+    padding: 30px 0;
+    
+}

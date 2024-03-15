@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench:SCAN@-13&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Workbench", sans-serif;
+    font-variation-settings: "BLED" 0, "SCAN" -23;
+}
+
+.hero {
+    background-image: url(images/graffiti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+.nav {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+}

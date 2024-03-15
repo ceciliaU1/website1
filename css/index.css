@@ -28,6 +28,7 @@ body {
     position: relative;
     margin-bottom: 20px;
     z-index: -2;
+    margin: 0;
 }
 
 .nav {

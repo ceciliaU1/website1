@@ -37,6 +37,10 @@ body {
     z-index: -1;
 }
 
+.hero a {
+    color: white;
+}
+
 .nav {
     position: fixed;
     background-color: #222;

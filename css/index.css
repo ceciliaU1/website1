@@ -30,7 +30,10 @@ body {
     margin: 0;
 }
 
-
+.hero a {
+    position: relative;
+    background-color: 
+}
 
 .nav {
     position: fixed;

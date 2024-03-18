@@ -30,7 +30,12 @@ body {
     margin: 0;
 }
 
-
+.hero ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
 
 .nav {
     position: fixed;

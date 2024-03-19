@@ -53,7 +53,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 3px;
 }
 
 .nav ul {
@@ -86,4 +86,45 @@ body {
 .nav a:hover {
     color: RebeccaPurple;
     font-weight: bold;
+}
+
+.dropbtn {
+    background-color: #222;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: RebeccaPurple;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #222;
 }
